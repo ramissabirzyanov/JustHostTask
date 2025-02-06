@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from vps.models import VPS
+from justhost_app.vps.models import VPS
 
 
 class VPSSerializer(ModelSerializer):

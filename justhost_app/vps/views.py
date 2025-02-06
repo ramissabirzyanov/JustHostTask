@@ -3,8 +3,8 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from django_filters.rest_framework import DjangoFilterBackend
-from vps.serializers import VPSSerializer, VPSStatusChangeSerializer
-from vps.models import VPS
+from .serializers import VPSSerializer, VPSStatusChangeSerializer
+from .models import VPS
 
 
 class VPSListView(ListAPIView):

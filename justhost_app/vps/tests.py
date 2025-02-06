@@ -1,5 +1,5 @@
 from django.test import TestCase, Client
-from vps.models import VPS
+from .models import VPS
 from django.urls import reverse
 
 
